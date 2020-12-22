@@ -1,0 +1,23 @@
+1.  Inicio
+2.  funcion principal()
+3.      tabla, i[0-n]
+4.      valorLimite, i[0-n]
+5.      mensajeFinal, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+6.      tabla <-- 3 
+7.      valorLimite <-- 10 
+8.      mensajeFinal <-- obtenerTabla(tabla, valorLimite)
+9.      Escribir mensajeFinal 
+10.  fin funcion principal 
+11. // se define un método o función
+12.  funcion obtenerTabla(tabla, i; limite, i) : x 
+13.     contador, i[0-n] <-- 1
+14.     operacion, i[0-n]
+15.     mensaje, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+16.     Mientras(contador<=limite) entonces
+17.       operacion <-- tabla * contador
+18.       mensaje <-- mensaje + tabla + " * " + contador " = " + operacion "\n"
+19.       contador <-- contador + 1
+20.     Fin Mientras
+21.     retorna mensaje
+22.  fin funcion obtenerTabla
+23. Fin

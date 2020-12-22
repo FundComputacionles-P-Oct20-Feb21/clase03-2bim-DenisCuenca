@@ -1,0 +1,18 @@
+1.  Inicio
+2.  funcion principal()
+3.    variable, x(20)[{a-z}, {BS}]
+3.    variableDos, x(20)[{a-z}, {BS}]
+4.    Escribir "Escriba un nombre"
+4.    Leer variable
+5.    variable2 <-- obtenerMensaje(variable)
+6.    Escribir variable2 
+7.  fin funcion principal 
+8. // se define un método o función
+9.  funcion obtenerMensaje(a, x(20)) : x // luego de los dos puntos se 
+                                         // indica el tipo de 
+                                         // dato que devuelve la función 
+10.    v, x(20)[{a-z}, {BS}]
+11.    v <-- "Hola Mundo" + a
+12.   retorna v
+13. fin funcion obtenerMensaje
+14. Fin
